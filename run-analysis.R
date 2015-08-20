@@ -4,7 +4,7 @@
 ##
 ## In order to run the function, you need to first download and extract the raw data
 ## provided in
-## http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ## Working directory needs to be set up to the "UCI HAR Dataset" folder.
 run_analysis <- function() {
         
