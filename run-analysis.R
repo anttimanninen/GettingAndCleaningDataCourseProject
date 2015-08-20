@@ -54,7 +54,7 @@ run_analysis <- function() {
         colnames(selected_data) <- gsub("Gyro", "Gyroscope", colnames(selected_data))
         ## Replace "Mag" with the full text "Magnitude".
         colnames(selected_data) <- gsub("Mag", "Magnitude", colnames(selected_data))
-        ## Replace "-mean" and "-std" with "Mean" and "Std"
+        ## Replace "-mean()" and "-std()" with "Mean" and "StandardDeviation"
         colnames(selected_data) <- gsub("-mean\\(\\)", "Mean", colnames(selected_data))
         colnames(selected_data) <- gsub("-std\\(\\)", "StandardDeviation", colnames(selected_data))
         ## Replace ending -X/-Y/-Z with simple X/Y/Z
