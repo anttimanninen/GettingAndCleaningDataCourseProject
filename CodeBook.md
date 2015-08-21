@@ -7,7 +7,7 @@
 Written by: Antti Manninen, 20/8/2015
 
 # Contents
-This code book contains <insert here>
+This code book contains description on how the R script run-analysis.R transforms the raw data to tidy data. It also describes what the tidy data produced by the script contains.
 
 # Study design
 ## The raw data
