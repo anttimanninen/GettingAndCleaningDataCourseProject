@@ -82,10 +82,6 @@ run_analysis <- function() {
         ## from the data frame.
         names(result_data)[2] <- "activity"
         
-        ## Write the data table to a text file since the assignment instructions
-        ## specifically wanted a text file instead of a csv
-        write.table(result_data, file="tidy_data.txt", row.names=FALSE)
-        
         ## Prepare a summary report by grouping the tidy data on subject id and
         ## activity name and then summarising the data using summarise_each
         ## that calculates the mean for all the remaining columns.

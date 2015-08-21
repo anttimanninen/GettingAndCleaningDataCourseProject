@@ -4,8 +4,7 @@ This repo contains two files in addition to this README:
 * CodeBook.md
 
 ## run-analysis.R
-This R script reads the data from the various raw data files provided in the course project, combines them into a tidy data set and creates a summary report. The tidy data set and the summary report are stored as text files in the end of
-the script.
+This R script reads the data from the various raw data files provided in the course project, combines them into a tidy data set and creates a summary report. The summary report is stored as text file in the end of the script.
 
 Note that in order to run the script successfully you need to perform these steps:
 * Install dplyr package
